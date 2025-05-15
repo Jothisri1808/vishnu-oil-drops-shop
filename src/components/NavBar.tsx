@@ -21,7 +21,7 @@ const NavBar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <span className="text-2xl font-playfair font-bold text-forest-700">Vishnu</span>
-          <span className="text-sm text-forest-500 ml-1">Organic Oils</span>
+          <span className="text-sm text-forest-500 ml-1 font-bold">Organic Oils</span>
         </Link>
 
         {/* Desktop Navigation */}

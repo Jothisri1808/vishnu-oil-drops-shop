@@ -34,7 +34,7 @@ export const products: Product[] = [
     id: "sesame-oil",
     name: "Cold Pressed Sesame Oil",
     price: 398,
-    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Our cold-pressed sesame oil is made from premium quality sesame seeds, processed in traditional wooden chekku. Known for its distinctive flavor and numerous health benefits.",
     featured: true,
     benefits: [
@@ -68,7 +68,7 @@ export const products: Product[] = [
     id: "mustard-oil",
     name: "Cold Pressed Mustard Oil",
     price: 848,
-    image: "https://images.unsplash.com/photo-1626100134610-d0c3cca11805?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1596133143392-0ca7b443751b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Premium Dabur cold-pressed mustard oil with a distinctive pungent flavor. Our mustard oil is extracted using wooden chekku to retain all essential nutrients and natural flavor.",
     featured: false,
     benefits: [
@@ -102,7 +102,7 @@ export const products: Product[] = [
     id: "canola-oil",
     name: "Pure Canola Oil",
     price: 1443,
-    image: "https://images.unsplash.com/photo-1473968996566-ca816614e8e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1474179568812-6d8c632a7704?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Miller pure canola oil is low in saturated fat and high in monounsaturated fat, making it one of the healthiest cooking oils available.",
     featured: false,
     benefits: [
@@ -119,7 +119,7 @@ export const products: Product[] = [
     id: "groundnut-oil",
     name: "Cold Pressed Groundnut Oil",
     price: 550,
-    image: "https://images.unsplash.com/photo-1589458049551-4f50d54e5f8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1621238575357-2516cf3726c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Our traditional wooden chekku pressed groundnut (peanut) oil is rich in flavor and aroma. Ideal for South Indian cooking and enhances the taste of any dish.",
     featured: true,
     benefits: [
@@ -136,7 +136,7 @@ export const products: Product[] = [
     id: "olive-oil",
     name: "Extra Virgin Olive Oil",
     price: 1200,
-    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1519692933481-e8ef829cbbd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Premium extra virgin olive oil, cold-pressed to preserve its rich flavor and nutritional benefits. Perfect for salad dressings, dipping, and low-heat cooking.",
     featured: true,
     benefits: [
@@ -153,7 +153,7 @@ export const products: Product[] = [
     id: "almond-oil",
     name: "Cold Pressed Almond Oil",
     price: 1500,
-    image: "https://images.unsplash.com/photo-1611409600812-ea67a287e96b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1611409599087-c3015a0143be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Our cold-pressed almond oil is perfect for skin care, hair care, and aromatherapy. Extracted from premium quality almonds using traditional methods.",
     featured: false,
     benefits: [
@@ -170,7 +170,7 @@ export const products: Product[] = [
     id: "flaxseed-oil",
     name: "Cold Pressed Flaxseed Oil",
     price: 700,
-    image: "https://images.unsplash.com/photo-1602345397613-0934a8812d23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1618172193763-c511deb635ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Our cold-pressed flaxseed (alsi) oil is rich in omega-3 fatty acids and lignans. Perfect for nutritional supplementation and boosting heart health.",
     featured: false,
     benefits: [
