@@ -15,31 +15,6 @@ const About = () => {
         </div>
       </div>
       
-      {/* Our Story */}
-      <section className="container-custom py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-3xl font-playfair font-bold text-forest-800 mb-6">Our Story</h2>
-            <p className="text-gray-700 mb-4">
-              Vishnu Organic Oils started as a small family business in the heart of Tamil Nadu with a simple mission: to bring the goodness of traditional cold-pressed oils to modern kitchens without compromising on quality or authenticity.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Founded in 2004 by Mr. Vishnu Prasad, our company has deep roots in the agricultural traditions of South India. Growing up watching his grandfather extract oil using the traditional wooden chekku method, Vishnu was inspired to preserve this ancient technique that yields the purest form of oils.
-            </p>
-            <p className="text-gray-700">
-              What started as a small operation serving the local community has now grown into a trusted brand serving customers across India while still maintaining the same traditional extraction methods and unwavering commitment to quality.
-            </p>
-          </div>
-          <div>
-            <img 
-              src="https://images.unsplash.com/photo-1610844434063-96362887d8e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-              alt="Traditional wooden oil press" 
-              className="rounded-lg shadow-lg"
-            />
-          </div>
-        </div>
-      </section>
-      
       {/* Our Mission */}
       <section className="bg-forest-50 py-16">
         <div className="container-custom">
