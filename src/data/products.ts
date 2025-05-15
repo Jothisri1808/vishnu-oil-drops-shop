@@ -17,7 +17,7 @@ export const products: Product[] = [
     id: "coconut-oil",
     name: "Cold Pressed Coconut Oil",
     price: 548,
-    image: "https://images.unsplash.com/photo-1589758443093-e7cb4520daf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1598023696416-0193a0bcd302?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Our cold-pressed coconut oil is extracted using traditional wooden chekku (wooden cold press) method that preserves all the natural nutrients and aroma. Perfect for cooking, skincare, and hair treatments.",
     featured: true,
     benefits: [
@@ -51,7 +51,7 @@ export const products: Product[] = [
     id: "castor-oil",
     name: "Cold Pressed Castor Oil",
     price: 194,
-    image: "https://images.unsplash.com/photo-1598023696416-0193a0bcd302?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1611409599087-c3015a0143be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Pure organic castor oil extracted through traditional wooden chekku process. Excellent for hair growth, skincare and various therapeutic applications.",
     featured: false,
     benefits: [
@@ -85,7 +85,7 @@ export const products: Product[] = [
     id: "sunflower-oil",
     name: "Organic Sunflower Oil",
     price: 160,
-    image: "https://images.unsplash.com/photo-1582974006777-a9809cf643b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Jivo organic sunflower oil is light in taste and appearance, perfect for everyday cooking. Cold-pressed to maintain nutritional integrity and natural flavor.",
     featured: false,
     benefits: [
@@ -102,7 +102,7 @@ export const products: Product[] = [
     id: "canola-oil",
     name: "Pure Canola Oil",
     price: 1443,
-    image: "https://images.unsplash.com/photo-1474179568812-6d8c632a7704?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1620209759487-e15f002a33a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Miller pure canola oil is low in saturated fat and high in monounsaturated fat, making it one of the healthiest cooking oils available.",
     featured: false,
     benefits: [
@@ -153,7 +153,7 @@ export const products: Product[] = [
     id: "almond-oil",
     name: "Cold Pressed Almond Oil",
     price: 1500,
-    image: "https://images.unsplash.com/photo-1611409599087-c3015a0143be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1571751239008-50cad6cb9265?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     description: "Our cold-pressed almond oil is perfect for skin care, hair care, and aromatherapy. Extracted from premium quality almonds using traditional methods.",
     featured: false,
     benefits: [
