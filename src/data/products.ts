@@ -10,6 +10,7 @@ export interface Product {
   extractionMethod: string;
   weight: string;
   category: string;
+  relatedImages: string[]; // Add related images array
 }
 
 export const products: Product[] = [
@@ -28,7 +29,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Traditional wooden chekku (cold press)",
     weight: "1 Litre",
-    category: "cooking"
+    category: "cooking",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1621485449347-0ca93429990a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1597381356570-8ec728ca1251?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1611409598283-100ef5bf637c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   },
   {
     id: "sesame-oil",
@@ -45,7 +51,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Traditional wooden chekku (cold press)",
     weight: "1 Litre",
-    category: "cooking"
+    category: "cooking",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1612187256022-3e9cd73ad8a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1599751449029-3bce67ee7a57?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1668847637414-e78af14bf9f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   },
   {
     id: "castor-oil",
@@ -62,7 +73,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Traditional wooden chekku (cold press)",
     weight: "1 Litre",
-    category: "beauty"
+    category: "beauty",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1599421498111-ad70bebb016f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1601301585387-69e2329dc04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80", 
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   },
   {
     id: "mustard-oil",
@@ -79,7 +95,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Traditional wooden chekku (cold press)",
     weight: "1 Litre",
-    category: "cooking"
+    category: "cooking",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1631209121750-a9f788c3b5ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1620500487596-b9bde4eea6a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1622997210295-989cafcc1a1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   },
   {
     id: "sunflower-oil",
@@ -96,7 +117,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Cold pressed",
     weight: "1 Litre",
-    category: "cooking"
+    category: "cooking",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1630688231126-dd36840fce51?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1598966835412-6ccd2b27121d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1618591362879-8b9627a2a616?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   },
   {
     id: "canola-oil",
@@ -113,7 +139,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Cold pressed",
     weight: "1 Litre",
-    category: "cooking"
+    category: "cooking",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1612626256634-991e6e977fc1?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1622484212850-eb596d769edc?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1611759386164-505788f13497?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   },
   {
     id: "groundnut-oil",
@@ -130,7 +161,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Traditional wooden chekku (cold press)",
     weight: "1 Litre",
-    category: "cooking"
+    category: "cooking",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1604148482093-d55d6fc62400?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1600619946460-e211bba63456?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1586470202214-9c6b1fcb2ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   },
   {
     id: "olive-oil",
@@ -147,7 +183,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Cold pressed",
     weight: "1 Litre",
-    category: "premium"
+    category: "premium",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1620062318450-6d686b01eb2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1608573739609-699099a7b377?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   },
   {
     id: "almond-oil",
@@ -164,7 +205,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Traditional wooden chekku (cold press)",
     weight: "1 Litre",
-    category: "beauty"
+    category: "beauty",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1574570299706-951680461249?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1580396998450-323ac227370e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1610481284607-86309731e61a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   },
   {
     id: "flaxseed-oil",
@@ -181,7 +227,12 @@ export const products: Product[] = [
     ],
     extractionMethod: "Traditional wooden chekku (cold press)",
     weight: "1 Litre",
-    category: "health"
+    category: "health",
+    relatedImages: [
+      "https://images.unsplash.com/photo-1515364229230-3fd4ee3a0928?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1612170406693-baaeb9a236cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1599940824398-908a83be98a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+    ]
   }
 ];
 

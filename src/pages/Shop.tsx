@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { products } from "@/data/products";
 import { useCart } from "@/context/CartContext";
 import { Card, CardContent } from "@/components/ui/card";
+import { Image } from "lucide-react";
 
 const Shop = () => {
   const { addToCart } = useCart();
@@ -108,6 +109,27 @@ const Shop = () => {
                     <p className="text-forest-700 font-bold mb-2">₹{product.price}</p>
                     <p className="text-sm text-gray-600 mb-4 line-clamp-2">{product.description.substring(0, 60)}...</p>
                     
+                    {/* Related Oil Images Section */}
+                    <div className="mb-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <Image className="h-4 w-4 text-forest-600" />
+                        <p className="text-xs text-gray-500">Oil Images:</p>
+                      </div>
+                      
+                      <div className="grid grid-cols-3 gap-2">
+                        {product.relatedImages.map((img, index) => (
+                          <div key={index} className="aspect-square rounded-md overflow-hidden border border-gray-200 hover:border-forest-500 transition-colors">
+                            <img 
+                              src={img} 
+                              alt={`${product.name} image ${index + 1}`}
+                              className="w-full h-full object-cover" 
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    
+                    {/* Similar Products Section */}
                     {similarProducts.length > 0 && (
                       <div className="mb-4">
                         <p className="text-xs text-gray-500 mb-2">Similar Products:</p>
