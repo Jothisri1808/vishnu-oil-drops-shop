@@ -96,22 +96,20 @@ const Shop = () => {
               const similarProducts = getSimilarProducts(product.id, product.category);
               
               return (
-                <div key={product.id} className="product-card group bg-white rounded-lg shadow-sm overflow-hidden">
-                  {/* Main Product Image */}
-                  <div className="aspect-square overflow-hidden">
+                <div key={product.id} className="product-card group bg-white">
+                  <div className="overflow-hidden">
                     <img 
                       src={product.image} 
                       alt={product.name} 
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="product-image group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
-                  
                   <div className="p-4">
                     <h3 className="font-medium text-lg mb-1">{product.name}</h3>
                     <p className="text-forest-700 font-bold mb-2">₹{product.price}</p>
                     <p className="text-sm text-gray-600 mb-4 line-clamp-2">{product.description.substring(0, 60)}...</p>
                     
-                    {/* Oil Product Images Gallery */}
+                    {/* Related Oil Images Section */}
                     <div className="mb-4">
                       <div className="flex items-center gap-2 mb-2">
                         <Image className="h-4 w-4 text-forest-600" />
@@ -120,11 +118,11 @@ const Shop = () => {
                       
                       <div className="grid grid-cols-3 gap-2">
                         {product.relatedImages.map((img, index) => (
-                          <div key={index} className="aspect-square rounded-md overflow-hidden bg-gray-50 border border-gray-100">
+                          <div key={index} className="aspect-square rounded-md overflow-hidden border border-gray-200 hover:border-forest-500 transition-colors">
                             <img 
                               src={img} 
                               alt={`${product.name} image ${index + 1}`}
-                              className="w-full h-full object-cover hover:scale-110 transition-transform duration-300" 
+                              className="w-full h-full object-cover" 
                             />
                           </div>
                         ))}
@@ -135,15 +133,15 @@ const Shop = () => {
                     {similarProducts.length > 0 && (
                       <div className="mb-4">
                         <p className="text-xs text-gray-500 mb-2">Similar Products:</p>
-                        <div className="flex space-x-2 overflow-x-auto pb-2">
+                        <div className="flex space-x-2 overflow-x-auto">
                           {similarProducts.map((similar) => (
                             <Link to={`/product/${similar.id}`} key={similar.id}>
-                              <Card className="w-16 h-16 flex-shrink-0 hover:ring-2 hover:ring-forest-500 transition-all">
+                              <Card className="w-14 h-14 flex-shrink-0 hover:ring-1 hover:ring-forest-500">
                                 <CardContent className="p-0 h-full">
                                   <img 
                                     src={similar.image} 
                                     alt={similar.name} 
-                                    className="w-full h-full object-cover rounded-sm"
+                                    className="w-full h-full object-cover rounded-lg"
                                   />
                                 </CardContent>
                               </Card>
@@ -153,7 +151,7 @@ const Shop = () => {
                       </div>
                     )}
                     
-                    <div className="flex items-center justify-between mt-2">
+                    <div className="flex items-center justify-between">
                       <Button 
                         variant="outline" 
                         className="text-sm border-forest-600 text-forest-700 hover:bg-forest-50"
